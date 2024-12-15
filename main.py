@@ -203,7 +203,6 @@ class SquatSimulator:
         except Exception as e:
             self.debug_text.set(f"Error: {str(e)}")
 
-
 def main():
     root = tk.Tk()
     app = SquatSimulator(root)
